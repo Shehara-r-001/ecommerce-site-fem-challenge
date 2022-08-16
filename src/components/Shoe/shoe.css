@@ -3,12 +3,12 @@
 }
 
 .shoe__imgCont {
-  width: 100vw;
+  width: calc(100vw);
   position: relative;
 }
 
 .shoe__image {
-  width: 100vw;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -46,5 +46,52 @@
 .shoe__icon-right {
   position: absolute;
   /* top: calc(50% - 1rem); */
-  right: 2.5rem;
+  right: 3.5rem;
+}
+
+.shoe__thumbs {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .shoe__container {
+    width: 40vw;
+    margin-top: 20vh;
+  }
+
+  .shoe__imgCont {
+    width: calc(100% - 10rem);
+    margin: 0 auto;
+  }
+
+  .shoe__image {
+    border-radius: 10px;
+  }
+
+  .shoe__iconCont {
+    top: calc(50% - 3.5rem);
+  }
+
+  .shoe__icon-right {
+    right: 2.5rem;
+  }
+
+  .shoe__thumbs {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 4px 0;
+    margin-top: 1rem;
+  }
+
+  .shoe__thumbnail {
+    width: calc(10vw - 4rem);
+    border-radius: 5px;
+  }
+
+  .thumb__border {
+    border: 2px solid hsl(26, 100%, 55%);
+    opacity: 0.5;
+  }
 }

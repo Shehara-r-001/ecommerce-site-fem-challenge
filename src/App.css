@@ -1,0 +1,12 @@
+@media (min-width: 1024px) {
+  .app {
+    width: 100vw;
+    height: calc(100vh - 3rem);
+  }
+
+  .app__cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

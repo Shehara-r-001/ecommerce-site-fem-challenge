@@ -2,21 +2,21 @@
   {
     "id": 1,
     "imgUrl": "https://github.com/Shehara-r-001/ecommerce-site-fem-challenge/blob/main/src/images/image-product-1.jpg?raw=true",
-    "thumbUrl": ""
+    "thumbUrl": "https://github.com/Shehara-r-001/ecommerce-site-fem-challenge/blob/main/src/images/image-product-1-thumbnail.jpg?raw=true"
   },
   {
     "id": 2,
     "imgUrl": "https://github.com/Shehara-r-001/ecommerce-site-fem-challenge/blob/main/src/images/image-product-2.jpg?raw=true",
-    "thumbUrl": ""
+    "thumbUrl": "https://github.com/Shehara-r-001/ecommerce-site-fem-challenge/blob/main/src/images/image-product-2-thumbnail.jpg?raw=true"
   },
   {
     "id": 3,
     "imgUrl": "https://github.com/Shehara-r-001/ecommerce-site-fem-challenge/blob/main/src/images/image-product-3.jpg?raw=true",
-    "thumbUrl": ""
+    "thumbUrl": "https://github.com/Shehara-r-001/ecommerce-site-fem-challenge/blob/main/src/images/image-product-3-thumbnail.jpg?raw=true"
   },
   {
     "id": 4,
     "imgUrl": "https://github.com/Shehara-r-001/ecommerce-site-fem-challenge/blob/main/src/images/image-product-4.jpg?raw=true",
-    "thumbUrl": ""
+    "thumbUrl": "https://github.com/Shehara-r-001/ecommerce-site-fem-challenge/blob/main/src/images/image-product-4-thumbnail.jpg?raw=true"
   }
 ]

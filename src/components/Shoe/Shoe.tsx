@@ -28,6 +28,20 @@ const Shoe = () => {
             </div>
           )}
         </div>
+        <div className='shoe__thumbs'>
+          {Data.map((imgData, index) => (
+            <div key={index}>
+              <img
+                src={imgData.thumbUrl}
+                alt={`thumb${index}`}
+                className={`shoe__thumbnail ${
+                  imageID === index + 1 && 'thumb__border'
+                }`}
+                onClick={() => setImageID(index + 1)}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

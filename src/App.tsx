@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
+import Details from './components/Details/Details';
 import Shoe from './components/Shoe/Shoe';
 
 function App() {
   return (
     <div className='app'>
-      <Shoe />
+      <div className='app__cont'>
+        <Shoe />
+        <Details />
+      </div>
     </div>
   );
 }
