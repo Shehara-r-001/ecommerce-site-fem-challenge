@@ -4,8 +4,10 @@ import { BiMenu } from 'react-icons/bi';
 import Logo from '../../images/logo.svg';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { MdClose } from 'react-icons/md';
+import Cart from '../Cart/Cart';
 
 const Header = () => {
+  const [showCart, setShowCart] = useState(false);
   const [showMenu, setShowMenu] = useState<boolean>(false);
   return (
     <div className={`header`}>
@@ -32,7 +34,15 @@ const Header = () => {
       </div>
 
       <div className='header__userCont'>
-        <AiOutlineShoppingCart className='header__icon' />
+        <AiOutlineShoppingCart
+          onClick={() => setShowCart(!showCart)}
+          className='header__icon'
+        />
+        {showCart && (
+          <div className='header__cart'>
+            <Cart />
+          </div>
+        )}
         <img
           src='https://avatars.githubusercontent.com/u/84827162?v=4'
           alt='user'

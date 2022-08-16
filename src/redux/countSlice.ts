@@ -5,7 +5,7 @@ export interface CountState {
 }
 
 const initialState: CountState = {
-  value: 1,
+  value: 0,
 };
 
 export const countSlice = createSlice({

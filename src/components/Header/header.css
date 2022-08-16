@@ -60,6 +60,16 @@ ul li {
   cursor: pointer;
 }
 
+.header__userCont {
+  position: relative;
+}
+
+.header__cart {
+  position: absolute;
+  top: 3rem;
+  left: -140px;
+}
+
 @media (min-width: 1024px) {
   .header__menu {
     background-color: transparent;
