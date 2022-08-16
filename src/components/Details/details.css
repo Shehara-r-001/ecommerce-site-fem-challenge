@@ -134,6 +134,10 @@
   letter-spacing: 0.02rem;
 }
 
+.iconDiv_hide {
+  visibility: hidden;
+}
+
 @media (min-width: 1024px) {
   .details {
     width: 40vw;
@@ -161,6 +165,11 @@
 
   .details__pricesCont-sub {
     width: 100%;
+    justify-content: flex-start;
+  }
+
+  .details__discount {
+    margin-left: 1rem;
   }
 
   .details__originalPrice {
