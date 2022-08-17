@@ -1,5 +1,6 @@
 .shoe__container {
   margin-top: 3rem;
+  cursor: pointer;
 }
 
 .shoe__imgCont {

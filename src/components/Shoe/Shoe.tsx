@@ -10,6 +10,7 @@ const Shoe = () => {
     <div className='shoe__container'>
       <div className='shoe__imgCont'>
         <img src={Data[imageID - 1].imgUrl} alt='' className='shoe__image' />
+
         <div className='shoe__iconCont'>
           {imageID > 1 && (
             <div

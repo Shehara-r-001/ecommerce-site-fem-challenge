@@ -11,12 +11,12 @@ const Details = () => {
 
   const Increment = () => {
     setItemCount(itemCount + 1);
-    dispatch(storeCount(itemCount));
+    // dispatch(storeCount(itemCount));
   };
 
   const Decrement = () => {
     setItemCount(itemCount - 1);
-    dispatch(storeCount(itemCount));
+    // dispatch(storeCount(itemCount));
   };
 
   return (
@@ -48,7 +48,10 @@ const Details = () => {
             <BiPlus className='details__icon' />
           </div>
         </div>
-        <button className='details__button'>
+        <button
+          className='details__button'
+          onClick={() => dispatch(storeCount(itemCount))}
+        >
           <AiOutlineShoppingCart className='details__cartIcon' />
           <p className='details__cartText'>Add to cart</p>
         </button>
